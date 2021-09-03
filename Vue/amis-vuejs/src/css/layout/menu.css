@@ -1,0 +1,152 @@
+/* Title of left-bar */
+.navbar{
+    border-right: 1px solid #E5E5E5;
+    min-width: 178px;
+    height: 100vh;
+    background-color: #38393d;
+}
+
+.logo-container{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container .container-option{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -424px -86px;
+}
+
+.logo-container .logo{
+    height: 32px;
+    display: block;
+}
+
+.logo-container .logo img{
+    height: 32px;
+}
+
+.menu-item-list{
+    height: calc(100vh - 48px);
+    padding-top: 14px;
+    overflow: auto;
+}
+
+.menu-item-list .wrap-item:hover{
+    background-color: #5D5D61;
+}
+
+.menu-item-list .item{
+    display: flex;
+    height: 42px;
+    line-height: 42px;
+    border-left: 6px solid transparent;
+    padding-left: 8px;
+    padding-right: 14px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+
+.item .icon-item{
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+/* Start: Đặt background cho div - icon của các item */
+.background-icon{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+}
+
+.dashboard{
+    background-position: -30px -1628px;
+}
+
+.cash{
+    background-position: -73px -1628px;
+}
+
+.bank{
+    background-position: -117px -1628px;
+}
+
+.buy{
+    background-position: -161px -1628px;
+}
+
+.sale{
+    background-position: -204px -1628px;
+}
+
+.invoice{
+    background-position: -249px -1628px;
+}
+
+.stock{
+    background-position: -291px -1628px;
+}
+
+.tools{
+    background-position: -336px -1628px;
+}
+
+.assets{
+    background-position: -378px -1630px;
+}
+
+.tax{
+    background-position: -423px -1630px;
+}
+
+.price{
+    background-position: -467px -1628px;
+}
+
+.general{
+    background-position: -510px -1628px;
+}
+
+.budget{
+    background-position: -378px -1659px;
+}
+
+.report{
+    background-position: -547px -1628px;
+}
+
+.finance{
+    background-position: -204px -1664px;
+}
+/* End: Đặt background cho div - icon của các item */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #b8bcc3;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #f1f1f1;
+    width: 6px;
+}
+
+
+

@@ -1,0 +1,50 @@
+.button-add{
+    width: auto;
+    border-radius: 4px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+/* Các button màu xanh */
+.green{
+    background-color: #2ca01c;   
+    color: #ffffff;
+    font-family: Notosans_Bold;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.green:hover{
+    background-color: #35BF22;   
+}
+
+/* Các button màu trắng */
+.white{
+    background-color: transparent;
+    border: 1px solid #8d9096;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.white:hover{
+    background-color: #D2D3D6;
+}
+
+/* Các button màu đỏ */
+.red{
+    background-color: #F65454;
+    color: #ffffff;
+    font-family: Notosans_Bold;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.red:hover{
+    background-color: #F33333;
+}
+
+.button-add-text{
+    white-space: nowrap;
+    
+}

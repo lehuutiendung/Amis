@@ -1,0 +1,17 @@
+.wrap-tooltip{
+    display: none;
+    position: absolute;
+    z-index: 20;
+    background-color: #505050;
+    width: max-content;
+    border-radius: 3px;
+}
+
+.show-tooltip{
+    display: block;
+}
+
+.wrap-tooltip .tooltip{
+    color: #ffffff;
+    padding: 2px 8px;
+}

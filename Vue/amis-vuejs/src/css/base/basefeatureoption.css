@@ -1,0 +1,25 @@
+.wrap-option{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    z-index: 20;
+    background-color: #fff;
+    border: 1px solid #bbbbbb;
+    width: max-content;
+}
+
+.wrap-option-flex{
+    display: flex;
+}
+
+.mar{
+    height: 30px;
+    padding: 5px 10px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.mar:hover{
+    background-color: #E8E9EC;
+    color: #46CB57;
+}

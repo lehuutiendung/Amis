@@ -1,0 +1,141 @@
+.das-combobox{
+    margin-bottom: 12px;
+}
+
+.combobox-text{ 
+    margin-bottom: 4px;
+    font-family: Notosans_Semibold;
+}
+
+.combobox-text span{
+    color: red;
+}
+
+.wrap-combobox{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    border-radius: 2px;
+    border: 1px solid #bbbbbb;
+}
+
+.combobox-form{
+    border: none;
+    border-right: none;
+    width: 100%;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/* .wrap-combobox .combobox-btn-form{
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+} */
+
+.combobox-btn-form button{
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    width: 32px;
+    height: 30px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.combobox-btn-form button:hover{
+    background-color: #E0E0E0;
+}
+
+.combobox-btn-form .combobox-img{
+    width: 16px;
+    height: 16px;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -560px -359px;
+}
+
+/* Css for combobox-datacombobox */
+.combobox-data-form {
+    width: 400px;
+    align-items: center;
+    border-radius: 2px;
+    padding-bottom: 2px;
+    margin-top: 1px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 3px 3px rgb(219, 219, 219);
+    -webkit-box-shadow: 0px 3px 3px rgb(219, 219, 219);
+    box-shadow: 0px 1px 8px 0px rgb(219, 219, 219);
+    flex-direction: column;
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
+
+.showCombobox{
+    display: flex;
+}
+
+.combobox-data-form .title-data{
+    width: 100%;
+    height: 32px;
+    background-color: #F4F5F8;
+    display: flex;
+    color: #111;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.combobox-data-form .title-data .title-code-data{
+    width: 90px;
+    font-family: Notosans_Bold;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.combobox-data-form .title-data .title-name-data{
+    margin: 0 10px;
+    font-family: Notosans_Bold;
+}
+
+.combobox-data-form li.combobox-form-item{
+    height: 32px;
+    width: inherit;
+    color: #000000;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.combobox-data-form li.combobox-form-item:hover{
+    background-color: #EBEDF0;
+    color: #46CB57;
+}
+
+.combobox-data-form .combobox-form-item .content-code{
+    width: 90px;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.combobox-data-form .combobox-form-item .content-name{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.item-background-choose{
+    background-color: #EBEDF0;
+}
+
+.item-color-choose{
+    color: #46CB57;
+}
+
+
+
