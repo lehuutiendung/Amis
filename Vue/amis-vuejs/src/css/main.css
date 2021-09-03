@@ -1,0 +1,85 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Notosans_Regular;
+    overflow: hidden;
+    height: 100%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: none;
+    text-decoration: none;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    -webkit-text-decoration-style: initial;
+    text-decoration-style: solid;
+    -webkit-text-decoration-color: initial;
+    text-decoration-color: initial;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#app{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-16{
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.icon-24{
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.icon-32{
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.icon-48{
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.space-10{
+  width: 10px;
+}
+
+@font-face {
+    font-family: Notosans_Bold;
+    src: url(../assets/font/notosans-bold.3ede5aff.woff2);
+  }
+
+@font-face {
+    font-family: Notosans_Italic;
+    src: url(../assets/font/notosans-italic.1c1aaac9.woff2);
+  }
+
+  @font-face {
+    font-family: Notosans_Regular;
+    src: url(../assets/font/notosans-regular.2cb88a13.woff2);
+  }
+
+@font-face {
+  font-family: Notosans_Semibold;
+  src: url(../assets/font/notosans-semibold.df3e6dc4.woff2);
+}

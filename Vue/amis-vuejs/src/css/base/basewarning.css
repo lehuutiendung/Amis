@@ -1,0 +1,37 @@
+.warning{
+    position: absolute;
+    display: none;
+    text-align: center;
+    height: 32px;
+    left: 845px;
+    top: 415px;
+}
+
+.active-warning{
+    display: flex;
+}
+
+.warning-rotate{
+    position: absolute;
+    width: 20px;                                                                                                                                                                                                                        
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 14px;
+    background-color: #FF4747;
+    z-index: 15;
+    transform: rotate(45deg);
+}
+
+.warning-box{
+    border-radius: 4px;
+    position: absolute;
+    height: inherit;
+    background-color: #FF4747;
+    z-index: 20;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    white-space: nowrap;
+
+}

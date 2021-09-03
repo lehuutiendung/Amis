@@ -1,0 +1,411 @@
+.content-wrap{
+    flex: 1;
+    padding-top: 48px;
+    padding-left: 20px;
+}
+
+.content-wrap .content-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Start content-title*/
+.content-title{
+    width: calc(100% - 30px);
+    height: 36px;
+    margin: 20px 30px 20px 0;
+}
+
+.title-row{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.title-row .title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    font-family: Notosans_Bold;
+}
+/*End content-title*/
+
+/*Start content-body*/
+.content-body{
+    padding: 0 30px 0 0;
+    position: relative;
+    min-height: 0;
+}
+
+.content-body .content-body-background{
+    height: inherit;
+    background-color: #fff;
+
+}
+
+.content-body .content-body-tool{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 16px 10px 16px;
+    align-items: center;
+}
+
+.content-body-tool .content-body-tool-left{
+    position: absolute;
+    left: 0;
+    margin-left: 16px;
+    display: none;
+}
+
+.content-body-tool .active-button-delete{
+    display: block;
+}
+
+.content-body-tool .content-body-tool-right{
+    display: flex;
+    align-items: center;
+}
+
+.content-body-tool .div-input-search{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.content-body-tool .div-input-search .input-search{
+    height: 32px;
+    width: 240px;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 6px 10px 6px 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+.content-body-tool .div-input-search .input-search::placeholder{
+    font-family: Notosans_Italic;
+}
+
+.content-body-tool .focus-input-search{
+    border: 1px solid #2ca01c;
+}
+
+.div-input-search .wrap-icon-input-search{
+    width: 30px;
+    height: 32px;
+    align-items: center;
+}
+
+.div-input-search .wrap-icon-input-search .icon-input-search{
+    width: 50%;
+    height: 50%;
+    margin-top: 8px;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -992px -360px;
+}
+
+/* Button refresh */
+.btn-refresh{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -423px -201px;
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+.btn-refresh:hover{
+    background-position: -1097px -88px;
+}
+
+/* Button export */
+.btn-export{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -704px -200px;
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+.btn-export:hover{
+    background-position: -704px -256px;
+}
+
+    /* Start table */
+.content-table{
+    /* height: inherit; */
+    height: calc(100vh - 250px);
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 100%;
+}
+
+.table-wrap{
+    border-spacing: 0;
+    /* max-height: calc(100% - 264px); */
+    height: inherit;
+    width: 100%;
+    overflow: scroll;
+}
+
+.table-wrap table{
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: auto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.table-wrap table thead{
+    width: inherit;
+}
+
+.table-wrap table tbody{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.table-wrap table th, tr, td{
+    border-bottom: 1px solid #bbbbbb;
+    white-space: nowrap;
+    height: 34px;
+    font-size: 12px;
+    text-transform: uppercase!important;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.table-wrap table td{
+    border-right: 1px dotted #bbbbbb;
+    padding: 5px 10px;
+}
+
+.table-wrap table tr td{
+    height: 47x;
+    padding:  5px 10px;
+    font-size: 13px;
+}
+
+.table-wrap table tr td .col{
+    height: 36px;
+    line-height: 36px;
+}
+
+.table-wrap table .col-1{
+    padding: 10px 0;
+}
+
+.table-wrap table .center-column{
+    text-align: center;
+}
+
+.th-thead{
+    padding: 0 10px 0 10px;
+}
+
+.widen-column-87{
+    min-width: 87px;
+    max-width: 87px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.widen-column-150{
+    min-width: 150px;
+    max-width: 230px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.widen-column-230{
+    min-width: 160px;
+    max-width: 230px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+/* CSS cho checkbox */
+.wrap-checkbox{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-column{
+    padding-left: 10px;
+    border: 1px solid #bbbbbb;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+
+}
+
+.checkbox-custome{
+    top: 0;
+    left: 0;
+    transition: all .2s ease;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    background: #fff;
+    margin: 0 auto!important;
+}
+
+.border-checkbox-custome{
+    width: inherit;
+    height: inherit;
+}
+
+.checkbox-true{
+    border: 1px solid #2ca01c;
+    transform: rotate(0deg);
+}
+
+.icon-checkbox-true{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1224px -360px;;
+}
+
+/* Sticky hàng tiêu đề của bảng */
+.table-wrap table tr th{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    border-right: 1px solid #bbbbbb;
+    background-color: #ECEEF1;
+    text-align: left;
+}
+
+/* Sticky cột chức năng */
+th.sticky-feature{
+    border-left: 1px solid #bbbbbb;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    top: 0;
+    background: #ECEEF1 !important;
+    z-index: 2;
+}
+
+td.sticky-feature{
+    border-left: 1px dotted #bbbbbb;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    background: #ffffff;
+    z-index: 0;
+}
+
+.sticky-feature .feature-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.feature-wrap .feature-text{
+    padding-left: 10px;
+    font-weight: 600;
+    position: relative;
+    color: #00A1D9;
+    display: inline-block;
+    transition: all .25s ease;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: Notosans_Semibold;
+    line-height: 36px;
+}
+
+.feature-wrap .feature-icon{
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -896px -359px;
+    margin: 8px 10px;
+}
+
+/* Sticky 3 cột tiêu đề đầu tiên của bảng */
+thead tr th:nth-of-type(1), th:nth-of-type(2), th:nth-of-type(3){
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0;
+    background: #ECEEF1 !important;
+    z-index: 6;
+}
+
+thead tr th:nth-of-type(1){
+    left: 0;
+    min-width: 39px;
+    max-width: 39px;
+}
+
+thead tr th:nth-of-type(2){
+    left: 39px;
+    min-width: 108px;
+    max-width: 108px;
+    z-index: 7;
+}
+
+thead tr th:nth-of-type(3){
+    left: 147px;
+    z-index: 8;
+}
+
+/* Sticky 3 cột đầu tiên của bảng */
+tbody tr td:nth-of-type(1), td:nth-of-type(2), td:nth-of-type(3){
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+tbody tr td:nth-of-type(1){
+    left: 0;
+}
+
+tbody tr td:nth-of-type(2){
+    left: 39px;
+    z-index: 4;
+}
+
+tbody tr td:nth-of-type(3){
+    left: 147px;
+    z-index: 0;
+}
+
+/* Hover vào dòng */
+tbody tr:hover,
+tbody tr:hover td:nth-child(1),
+tbody tr:hover td:nth-child(2),
+tbody tr:hover td:nth-child(3),
+tbody tr:hover td:nth-child(16){
+    background-color: #F3F8F8;
+}
+
+
+    /*End table*/
+/*End content-body*/

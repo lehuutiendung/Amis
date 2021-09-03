@@ -1,0 +1,86 @@
+.box-toast{
+    position: absolute;
+    z-index: 88;
+    bottom: 54px;
+    right: 42px;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.box-toast.show{
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 54px; opacity: 1;}
+}
+  
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 54px; opacity: 1;}
+}
+  
+@-webkit-keyframes fadeout {
+    from {bottom: 54px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+  
+@keyframes fadeout {
+    from {bottom: 54px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+.toast{
+    height: 48px;
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.wrap-start-toast{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-toast{
+    background: url(../../assets/img/Sprites.64af8f61.svg);
+    margin: 0 10px;
+}
+
+.icon-success{
+    background-position: -1600px -256px;
+}
+
+.background-success{
+    background-color: #BAFFE7;
+}
+
+.toast-error{
+    background-color: #EB5757;
+}
+
+.toast-warning{  
+    background-color: #F1C04E;
+}
+
+.toast-done{
+    background-color: #01B075;
+}
+
+.toast-notice{
+    background-color: #4388D9;
+}
+
+.wrap-start-toast .toast-content .toast-text{
+    margin: 0;
+    text-align: start;
+    color: #000000;
+}

@@ -1,0 +1,36 @@
+.wrap-loading{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.12);
+    position: fixed;
+    z-index: 30;    
+    display: none;
+}
+
+.show-loading{
+    display: flex;
+}
+
+.position-icon-loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+
+.icon-loading{
+    background: url(../../assets/img/loading.svg);
+    animation: mercury-group 2s linear infinite;
+}
+
+@keyframes mercury-group {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }

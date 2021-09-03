@@ -1,0 +1,50 @@
+.footer-table{
+    width: calc(100% - 30px);
+    position: sticky;
+    bottom: 10px;
+}
+
+.footer-paginate{
+    display: flex;
+    min-height: 48px;
+    padding: 0 16px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paginate-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.number-page-wrap{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 32px;
+    box-sizing: border-box;
+}
+
+.number-page-wrap .prev-page{
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+.number-page-wrap .next-page{
+    cursor: pointer;
+    margin-left: 13px;
+}
+
+.number-page-wrap .number-page{
+    display: flex;
+}
+
+.number-page .number{
+    padding: 0 6.5px;
+    cursor: pointer;
+}
+
+.active-number-page{
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+}
