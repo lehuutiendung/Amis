@@ -1,4 +1,4 @@
-# Amis
+# Amis: Web07_MF928_LHTDung
 # amis-vuejs
 
 ## Project setup
